@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-7D2VEQQ",
+    "children" : [ {
+      "name" : "13332@DESKTOP-7D2VEQQ.main(1)",
+      "children" : [ {
+        "name" : "Test05: verify FacebookLogo",
+        "uid" : "fe5f1df40550b57c",
+        "parentUid" : "2fce731cf66479cca606e0e8c6c5b039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609846269933,
+          "stop" : 1609846274606,
+          "duration" : 4673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: verify Number Of Matching Exercises",
+        "uid" : "225b6fff0dd9f5e5",
+        "parentUid" : "2fce731cf66479cca606e0e8c6c5b039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609846092225,
+          "stop" : 1609846164343,
+          "duration" : 72118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: verify Number Of Calories Burned",
+        "uid" : "223bc7c8719103ee",
+        "parentUid" : "2fce731cf66479cca606e0e8c6c5b039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609846165760,
+          "stop" : 1609846234820,
+          "duration" : 69060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: verify Calories Burned Description",
+        "uid" : "5ff6c72d1e8ec105",
+        "parentUid" : "2fce731cf66479cca606e0e8c6c5b039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609846022962,
+          "stop" : 1609846028110,
+          "duration" : 5148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to FitnessPal",
+        "uid" : "98f714f50ad6a616",
+        "parentUid" : "2fce731cf66479cca606e0e8c6c5b039",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609846003194,
+          "stop" : 1609846014437,
+          "duration" : 11243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "2fce731cf66479cca606e0e8c6c5b039"
+    } ],
+    "uid" : "ecc30258f094a75080db63222dd825ba"
+  } ]
+}

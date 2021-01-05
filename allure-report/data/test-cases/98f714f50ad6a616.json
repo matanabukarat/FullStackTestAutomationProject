@@ -1,0 +1,516 @@
+{
+  "uid" : "98f714f50ad6a616",
+  "name" : "Test01: Login to FitnessPal",
+  "fullName" : "SanityTests.myfitnesspalWeb.test01_logIn",
+  "historyId" : "f2ccae5bd89b06d228aa0806c1f34695",
+  "time" : {
+    "start" : 1609846003194,
+    "stop" : 1609846014437,
+    "duration" : 11243
+  },
+  "description" : "Test Description: Login to FitnessPal Web Application",
+  "descriptionHtml" : "<p>Test Description: Login to FitnessPal Web Application</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1609845990131,
+      "stop" : 1609846003134,
+      "duration" : 13003
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Gets Data From xml File",
+      "time" : {
+        "start" : 1609845990195,
+        "stop" : 1609845990294,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "BrowserName"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Initializing Requested Browser Type",
+      "time" : {
+        "start" : 1609845990294,
+        "stop" : 1609846001377,
+        "duration" : 11083
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Initializing Chrome Browser",
+        "time" : {
+          "start" : 1609845990294,
+          "stop" : 1609845995244,
+          "duration" : 4950
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Gets Data From xml File",
+        "time" : {
+          "start" : 1609845997426,
+          "stop" : 1609845997426,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "nodeName",
+          "value" : "url"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Gets Data From xml File",
+        "time" : {
+          "start" : 1609846001337,
+          "stop" : 1609846001337,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "nodeName",
+          "value" : "TimeOut"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Gets Data From xml File",
+        "time" : {
+          "start" : 1609846001361,
+          "stop" : 1609846001361,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "nodeName",
+          "value" : "TimeOut"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "BrowserType",
+        "value" : "chrome"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Gets Data From xml File",
+      "time" : {
+        "start" : 1609846001445,
+        "stop" : 1609846001445,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "dbURL"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Gets Data From xml File",
+      "time" : {
+        "start" : 1609846001445,
+        "stop" : 1609846001445,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "dbUser"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Gets Data From xml File",
+      "time" : {
+        "start" : 1609846001445,
+        "stop" : 1609846001461,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "dbPass"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Connecting to MySQl DataBase",
+      "time" : {
+        "start" : 1609846001461,
+        "stop" : 1609846003134,
+        "duration" : 1673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dbURL",
+        "value" : "jdbc:mysql://remotemysql.com:3306/8GUoXlwt1w"
+      }, {
+        "name" : "user",
+        "value" : "8GUoXlwt1w"
+      }, {
+        "name" : "pass",
+        "value" : "uvOiMYN3mz"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Login to FitnessPal Web Application",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Gets Data From xml File",
+      "time" : {
+        "start" : 1609846003203,
+        "stop" : 1609846003205,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "user"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Gets Data From xml File",
+      "time" : {
+        "start" : 1609846003205,
+        "stop" : 1609846003205,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "pass"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Login Fitness web Flow",
+      "time" : {
+        "start" : 1609846003215,
+        "stop" : 1609846014269,
+        "duration" : 11054
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609846003245,
+          "stop" : 1609846006841,
+          "duration" : 3596
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (b3c1fca67f278bf8ea6043e1d394720b)] -> xpath: //div/a[@href='/account/login']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Update element Text",
+        "time" : {
+          "start" : 1609846006857,
+          "stop" : 1609846007176,
+          "duration" : 319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (b3c1fca67f278bf8ea6043e1d394720b)] -> id: username]"
+        }, {
+          "name" : "value",
+          "value" : "matanasd123@gmail.com"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Update element Text",
+        "time" : {
+          "start" : 1609846007192,
+          "stop" : 1609846007425,
+          "duration" : 233
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (b3c1fca67f278bf8ea6043e1d394720b)] -> id: password]"
+        }, {
+          "name" : "value",
+          "value" : "12345678"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609846007449,
+          "stop" : 1609846010789,
+          "duration" : 3340
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (b3c1fca67f278bf8ea6043e1d394720b)] -> class name: submit]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1609846013338,
+          "stop" : 1609846014269,
+          "duration" : 931
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (b3c1fca67f278bf8ea6043e1d394720b)] -> class name: close-btn-container]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "matanasd123@gmail.com"
+      }, {
+        "name" : "pass",
+        "value" : "12345678"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Verify Text In Element",
+      "time" : {
+        "start" : 1609846014325,
+        "stop" : 1609846014429,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (b3c1fca67f278bf8ea6043e1d394720b)] -> xpath: //div[@class='left']/h2]"
+      }, {
+        "name" : "ExpectedText",
+        "value" : "Your Daily Summary"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1609846014661,
+      "stop" : 1609846022946,
+      "duration" : 8285
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Gets Data From xml File",
+      "time" : {
+        "start" : 1609846014661,
+        "stop" : 1609846014669,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "url"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "afterSession",
+    "time" : {
+      "start" : 1609846277842,
+      "stop" : 1609846278663,
+      "duration" : 821
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Closing MySQl Connection",
+      "time" : {
+        "start" : 1609846277842,
+        "stop" : 1609846277850,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.myfitnesspalWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.myfitnesspalWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_logIn"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.myfitnesspalWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7D2VEQQ"
+  }, {
+    "name" : "thread",
+    "value" : "13332@DESKTOP-7D2VEQQ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98f714f50ad6a616.json",
+  "parameterValues" : [ "web" ]
+}

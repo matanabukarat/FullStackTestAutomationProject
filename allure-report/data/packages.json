@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SanityTests.myfitnesspalWeb",
+    "children" : [ {
+      "name" : "test01_logIn",
+      "uid" : "98f714f50ad6a616",
+      "parentUid" : "9a868d986a601f9a4a622700412124db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846003194,
+        "stop" : 1609846014437,
+        "duration" : 11243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test02_verifyCaloriesBurnedDescription",
+      "uid" : "5ff6c72d1e8ec105",
+      "parentUid" : "9a868d986a601f9a4a622700412124db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846022962,
+        "stop" : 1609846028110,
+        "duration" : 5148
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test03_verifyNumberOfMatches",
+      "uid" : "225b6fff0dd9f5e5",
+      "parentUid" : "9a868d986a601f9a4a622700412124db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846092225,
+        "stop" : 1609846164343,
+        "duration" : 72118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test04_verifyCaloriesBurned",
+      "uid" : "223bc7c8719103ee",
+      "parentUid" : "9a868d986a601f9a4a622700412124db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846165760,
+        "stop" : 1609846234820,
+        "duration" : 69060
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "test05_verifyFacebookLogo",
+      "uid" : "fe5f1df40550b57c",
+      "parentUid" : "9a868d986a601f9a4a622700412124db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846269933,
+        "stop" : 1609846274606,
+        "duration" : 4673
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    } ],
+    "uid" : "SanityTests.myfitnesspalWeb"
+  } ]
+}

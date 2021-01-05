@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "SanityTests.myfitnesspalWeb",
+        "children" : [ {
+          "name" : "Test01: Login to FitnessPal",
+          "uid" : "98f714f50ad6a616",
+          "parentUid" : "4770359fe76d2f8c66b7f1d9cccc769a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609846003194,
+            "stop" : 1609846014437,
+            "duration" : 11243
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test02: verify Calories Burned Description",
+          "uid" : "5ff6c72d1e8ec105",
+          "parentUid" : "4770359fe76d2f8c66b7f1d9cccc769a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609846022962,
+            "stop" : 1609846028110,
+            "duration" : 5148
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test03: verify Number Of Matching Exercises",
+          "uid" : "225b6fff0dd9f5e5",
+          "parentUid" : "4770359fe76d2f8c66b7f1d9cccc769a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609846092225,
+            "stop" : 1609846164343,
+            "duration" : 72118
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test04: verify Number Of Calories Burned",
+          "uid" : "223bc7c8719103ee",
+          "parentUid" : "4770359fe76d2f8c66b7f1d9cccc769a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609846165760,
+            "stop" : 1609846234820,
+            "duration" : 69060
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test05: verify FacebookLogo",
+          "uid" : "fe5f1df40550b57c",
+          "parentUid" : "4770359fe76d2f8c66b7f1d9cccc769a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1609846269933,
+            "stop" : 1609846274606,
+            "duration" : 4673
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
+        "uid" : "4770359fe76d2f8c66b7f1d9cccc769a"
+      } ],
+      "uid" : "021ae6ebaf24613400055f41a8f6b406"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}

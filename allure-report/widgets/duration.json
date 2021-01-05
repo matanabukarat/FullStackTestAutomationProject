@@ -1,0 +1,51 @@
+[ {
+  "uid" : "98f714f50ad6a616",
+  "name" : "Test01: Login to FitnessPal",
+  "time" : {
+    "start" : 1609846003194,
+    "stop" : 1609846014437,
+    "duration" : 11243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe5f1df40550b57c",
+  "name" : "Test05: verify FacebookLogo",
+  "time" : {
+    "start" : 1609846269933,
+    "stop" : 1609846274606,
+    "duration" : 4673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ff6c72d1e8ec105",
+  "name" : "Test02: verify Calories Burned Description",
+  "time" : {
+    "start" : 1609846022962,
+    "stop" : 1609846028110,
+    "duration" : 5148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "225b6fff0dd9f5e5",
+  "name" : "Test03: verify Number Of Matching Exercises",
+  "time" : {
+    "start" : 1609846092225,
+    "stop" : 1609846164343,
+    "duration" : 72118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "223bc7c8719103ee",
+  "name" : "Test04: verify Number Of Calories Burned",
+  "time" : {
+    "start" : 1609846165760,
+    "stop" : 1609846234820,
+    "duration" : 69060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

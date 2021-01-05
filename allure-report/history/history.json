@@ -1,0 +1,102 @@
+{
+  "8d1f91be39c98dde5b104f8890ea8ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "225b6fff0dd9f5e5",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Automation%20Final%20Project%20Webb/1/allure/#testresult/225b6fff0dd9f5e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846092225,
+        "stop" : 1609846164343,
+        "duration" : 72118
+      }
+    } ]
+  },
+  "d24346d5247bb028b3e492ae8f4443ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "223bc7c8719103ee",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Automation%20Final%20Project%20Webb/1/allure/#testresult/223bc7c8719103ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846165760,
+        "stop" : 1609846234820,
+        "duration" : 69060
+      }
+    } ]
+  },
+  "bc3098497fb81858b06b5c9ca08bf228" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe5f1df40550b57c",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Automation%20Final%20Project%20Webb/1/allure/#testresult/fe5f1df40550b57c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846269933,
+        "stop" : 1609846274606,
+        "duration" : 4673
+      }
+    } ]
+  },
+  "6a97171ec29afe52011e4ce7c3119851" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ff6c72d1e8ec105",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Automation%20Final%20Project%20Webb/1/allure/#testresult/5ff6c72d1e8ec105",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846022962,
+        "stop" : 1609846028110,
+        "duration" : 5148
+      }
+    } ]
+  },
+  "f2ccae5bd89b06d228aa0806c1f34695" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98f714f50ad6a616",
+      "reportUrl" : "http://localhost:9090/job/Full%20Stack%20Automation%20Final%20Project%20Webb/1/allure/#testresult/98f714f50ad6a616",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609846003194,
+        "stop" : 1609846014437,
+        "duration" : 11243
+      }
+    } ]
+  }
+}
