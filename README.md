@@ -60,4 +60,4 @@ These tests can be developed in a very simple way, due to a lot of work in the i
 
 ### _Known Issues:_
 there is a conflict with the dependencies of appium client and appium experitest, this is a known bug not related to my project and yet to be fixed.
-Hence, the project is for DEMO purposes only, In production it should be divided into several projects.
+Hence, the project is for DEMO purposes only, In production it should be divided into several projects, each for every environment.
