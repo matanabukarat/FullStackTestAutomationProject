@@ -7,7 +7,7 @@ This project demonstates a smart test automation infrastructure. It is built in 
 There are main/common/helpers/actions/page_object modules.
 In this way, the tests can be created in a very simple way with minimum lines of code.
 Also the infrastructure allows to work with differend kinds of applications.
-**Big advantage of the infrastructure is that it can be easy maintained!**
+**Big advantage of the infrastructure is that it can be easily maintained!**
 
 ### _Project Overview_
 
