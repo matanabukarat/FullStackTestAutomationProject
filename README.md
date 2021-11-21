@@ -41,7 +41,7 @@ This project is an example of infrastructure for automation testing of different
 * Electon application
 * Windows calculator - Desktop application
 
-### _Tools & Frameworks thar were used in this project:_
+### _Tools & Frameworks that were used in this project:_
 * Selenium - For Web Aplication Testing
 * Appium - For Mobile Aplication Testing
 * RestAssured- for API testing
