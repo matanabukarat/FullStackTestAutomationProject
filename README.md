@@ -1,6 +1,6 @@
 ## **Full Stack Test Automation Project**
 [Short Video - Demonstration](https://drive.google.com/file/d/1bQB-32A__i0Dk93kPMosJPrd9WKdqOvc/view?usp=sharing)
-### **_This project was created to demonstrate my knowledge and skills on a Variety of Platforms Using Different Kinds of Tools & Frameworks._**
+### **_This project was created to demonstrate my knowledge and skills on a variety of platforms using different kinds of tools & frameworks._**
 ***
 ### _About_
 This project demonstates a smart test automation infrastructure. It is built in hierarchy order of modules, each module contains number of classes with methods.
